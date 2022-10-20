@@ -1,7 +1,7 @@
 <!-- ### Hi there 👋 -->
 
 <!--
-**adil2190/adil2190** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repo is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -15,16 +15,17 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<h1 align="center">Hi 👋, I'm Mirza Adil</h1>
-<h3 align="center">A passionate Full Stack Developer, currently exploring the technologies in MERN Stack and trying to master them in depth.</h3>
+<h1 align="center">Hi 👋, I'm Bryan Mevo </h1>
+<h3 align="center">I am passionate about Development and Project Management.
+With particular attention to cybersecurity and securing your applications against potential attacks</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=adil2190&label=Profile%20views&color=0e75b6&style=flat" alt="adil2190" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=alphabryan&label=Profile%20views&color=0e75b6&style=flat%22%20alt=%22adil2190" /> </p>
 
-- 📫 How to reach me **madil219076@gmail.com**
+- 📫 How to reach me **bryanmevo.ca@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/mirza-adil-b4572a159" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mirza-adil-b4572a159" height="30" width="40" /></a>
+<a href="https://github.com/AlphaBryan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mirza-adil-b4572a159" height="30" width="40" /></a>
 <a href="https://fb.com/mirza.adilbaig.923" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mirza.adilbaig.923" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/madil219076" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="madil219076" height="30" width="40" /></a>
 </p>
