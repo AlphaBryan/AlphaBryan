@@ -195,7 +195,8 @@ Here are some ideas to get you started:
   </a>
 </p>
 
-Docs : 
+
+<h3 align="left">⚡ Docs : </h3>
 How to build secrure API: https://hevodata.com/learn/building-a-secure-node-js-rest-api/
 
 <p align="center" ><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=alphabryan&" alt="alphabran" /></p>
