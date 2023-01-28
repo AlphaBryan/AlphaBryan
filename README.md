@@ -15,10 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<h1 align="center">👋 Bryan Mevo - Cybersecurity Full Stack Developper </h1>
+<h1 align="center">👋 Bryan Mevo - Full Stack Developper </h1>
 <h3 align="center">
 	I am passionate about Development and Project Management.
-	With particular attention to cybersecurity and securing your applications against potential attacks.⚡
+	With particular attention to cybersecurity and securing applications against potential attacks.⚡
 </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=alphabryan&label=Profile%20views&color=0e75b6&style=flat%22%20alt=%alphabryan" /> </p>
