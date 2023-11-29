@@ -3,7 +3,7 @@ name: Protect Prod Branch
 on:
   push:
     branches:
-      - production
+      - prod
 
 jobs:
   check-push:
@@ -22,37 +22,15 @@ jobs:
         shell: bash
 
       - name: Refuse push if not from a PR
-        if: steps.check_pr.outputs.is_push == 'true'
+        if: steps.check_pr.outputs.is_push == 'false'
         run: |
-          echo "Push to 'prod' branch is allowed because it's from a pull request."
-        else
           echo "Error: Push to 'prod' branch is not allowed. Please create a pull request."
-          COMMIT_SHA=$(git rev-parse HEAD)
-          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
-          MESSAGE=":x: Pushing directly to the 'prod' branch is not allowed. Please create a pull request instead."
-          echo "::set-output name=commit_sha::$COMMIT_SHA"
-          echo "::set-output name=message::$MESSAGE"
-        shell: bash
+          exit 1
 
       - name: Comment on the commit
         if: steps.check_pr.outputs.is_push == 'false'
-        uses: actions/github-script@v5
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const commit_sha = process.env.COMMIT_SHA;
-            const message = process.env.MESSAGE;
-            const context = "Push Protection";
-            
-            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
-            await octokit.rest.repos.createCommitComment({
-              owner: github.context.repo.owner,
-              repo: github.context.repo.repo,
-              commit_sha: commit_sha,
-              body: message,
-              path: ".github/workflows/force_pr.yml",
-              position: 1,
-              line: 1,
-              side: "RIGHT",
-              context: context,
-            });
+        run: |
+          COMMIT_SHA=$(git rev-parse HEAD)
+          MESSAGE=":x: Pushing directly to the 'prod' branch is not allowed. Please create a pull request instead."
+          echo "::set-output name=commit_sha::$COMMIT_SHA"
+          echo "::set-output name=message::$MESSAGE"
