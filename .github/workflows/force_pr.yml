@@ -22,9 +22,7 @@ jobs:
         shell: bash
 
       - name: Refuse push if not from a PR
-        if: steps.check_pr.outputs.is_push == 'true'
+        if: steps.check_pr.outputs.is_push == 'false'
         run: |
-          echo "Push to 'prod' branch is allowed because it's from a pull request."
-        else
-          echo "Push to 'prod' branch is not allowed. Please create a pull request."
+          echo "Error: Push to 'prod' branch is not allowed. Please create a pull request."
           exit 1
