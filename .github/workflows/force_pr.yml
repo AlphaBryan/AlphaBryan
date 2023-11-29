@@ -3,7 +3,7 @@ name: Protect Prod Branch
 on:
   push:
     branches:
-      - prod
+      - production
 
 jobs:
   check-push:
