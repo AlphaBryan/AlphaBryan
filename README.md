@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 
 - 📫 How to reach me : **bryanmevo.ca@gmail.com**
 
-<h3 align="left">👯 Connect with me:</h3>
+<h3 align="left">👯 :P Connect with me:</h3>
 <p align="left">
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/AlphaBryan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="AlphaBryan Linkedin" height="30" width="40" /></a>
